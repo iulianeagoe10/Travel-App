@@ -23,7 +23,7 @@ export class TripNoteService {
       place: "new York, USA",
       dateFrom: new Date('2024-06-15'),
       dateTo: new Date('2024-06-20'),
-      description: "Business trip to New Yorklol",
+      description: "Business trip to New Yorklolo",
       imageUrl: "assets/new.jpg",
       rating: 4
     },
