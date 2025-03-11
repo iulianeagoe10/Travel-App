@@ -41,7 +41,7 @@ const note = notes.find(n => n.id === 1);
 expect(note).toBeUndefined();
 });
 it('should update a trip note',()=>{
-service.updateNote({id:1, place:"Paris,France Update"});
+service.updateNote({id:1, place:"Paaaris,France Update"});
 const note =service.tripNotes().find(n=> n.id ===1);
 expect(note?.place).toBe("Paris,France Update")
 });
