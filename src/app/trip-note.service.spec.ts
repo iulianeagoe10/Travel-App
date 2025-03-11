@@ -17,7 +17,7 @@ describe('TripNoteService', () => {
   it('should add a new trip note', () =>{
     let newNote:TripNote={
       id:0,
-      place:"Milano,Italy",
+      place:"Milano,Italyy",
       dateFrom:new Date('2023-07-10'),
       dateTo:new Date('2025-01-01'),
       description:"Live in Milanooo",
