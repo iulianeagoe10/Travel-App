@@ -20,7 +20,7 @@ describe('TripNoteService', () => {
       place:"Milano,Italy",
       dateFrom:new Date('2023-07-10'),
       dateTo:new Date('2025-01-01'),
-      description:"Live in Milano",
+      description:"Live in Milanooo",
       imageUrl:"./assets/roma.jpg",
       rating:2
     };
