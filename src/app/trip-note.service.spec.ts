@@ -17,10 +17,10 @@ describe('TripNoteService', () => {
   it('should add a new trip note', () =>{
     let newNote:TripNote={
       id:0,
-      place:"Milano,Italy",
+      place:"Milano,Italyy",
       dateFrom:new Date('2023-07-10'),
       dateTo:new Date('2025-01-01'),
-      description:"Live in Milano",
+      description:"Live in Milanooo",
       imageUrl:"./assets/roma.jpg",
       rating:2
     };
@@ -41,7 +41,7 @@ const note = notes.find(n => n.id === 1);
 expect(note).toBeUndefined();
 });
 it('should update a trip note',()=>{
-service.updateNote({id:1, place:"Paris,France Update"});
+service.updateNote({id:1, place:"Paaaris,France Update"});
 const note =service.tripNotes().find(n=> n.id ===1);
 expect(note?.place).toBe("Paris,France Update")
 });
